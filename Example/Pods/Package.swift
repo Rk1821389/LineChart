@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "LineChart",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -16,13 +16,9 @@ let package = Package(
     targets: [
         .target(
             name: "LineChart",
-            path: "sources", // Path to your actual source files
-            exclude: [
-                "../Pod",
-                "../Support Files"
-            ],
+            path: "sources",
             publicHeadersPath: nil
-        ),
+        )
     ],
     swiftLanguageVersions: [.v5]
 )
