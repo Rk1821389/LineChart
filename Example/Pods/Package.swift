@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "LineChart",
-            path: "sources",
+            path: "Development Pods/LineChart/sources",
             publicHeadersPath: nil
         )
     ],
